@@ -4,9 +4,16 @@
   "description": "Aurelia-xeditable is a bundle of Aurelia custom elements/attributtes that allows you to create editable elements.",
   "keywords": [
     "aurelia",
-    "plugin",
-    "skeleton"
+    "editable",
+    "xeditable"
   ],
+  "aurelia": {
+    "build": {
+      "resources": [
+        "aurelia-xeditable/hello-world"
+      ]
+    }
+  },
   "homepage": "http://aurelia.io",
   "bugs": {
     "url": "https://github.com/guidocecilio/aurelia-xeditable/issues"
